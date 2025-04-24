@@ -43,6 +43,6 @@ Then navigate to http://127.0.0.1:8050/ in your web browser to access the dashbo
 ## Potential Improvements
 - Add more filtering options based on Q-values or other metrics
 - Implement export functionality for selected data points
-- Add statistical analysis features for selected gene subsets ( mean, std, 
-- Integrate with real experimental data sources
-
+- Add statistical analysis features for selected gene subsets ( mean, std, GSEA enrichment analysis...)
+- Live hosting would involve a hosting such as AWS or Heroku
+- Scaling beyond test datasets on a live server will require backend database integration such as PostgreSQL (psycopg)
